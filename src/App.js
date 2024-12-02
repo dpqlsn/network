@@ -10,12 +10,12 @@ const App = () => {
     setMessages([...messages, { text: input, sender: "user" }]);
     setMessages((prev) => [
       ...prev,
-      { text: generateResponse(input), sender: "bot" },
+      { text: Response(input), sender: "bot" },
     ]);
     setInput("");
   };
 
-  const generateResponse = (text) => {
+  const Response = (text) => {
     return '체크체크'
   };
 
