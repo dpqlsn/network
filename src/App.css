@@ -1,6 +1,8 @@
 .chat-app {
   display: flex;
   flex-direction: column;
+  padding-left: 30%;
+  padding-right: 30%;
   height: 100vh;
   justify-content: space-between;
   font-family: Arial, sans-serif;
@@ -27,13 +29,13 @@
 
 .message.user {
   align-self: flex-end;
-  background-color: #ffe3e7;
+  background-color: #FFBBCB;
   color: #333333;
 }
 
 .message.bot {
   align-self: flex-start;
-  background-color: #dcdcdc25;
+  background-color: #a9a9a935;
   color: #333333;
 }
 
@@ -55,7 +57,7 @@
 .input-box button {
   margin-left: 8px;
   padding: 12px 24px;
-  background-color: #007bff;
+  background-color: #7c7c7c;
   color: white;
   border: none;
   border-radius: 12px;
@@ -65,7 +67,7 @@
 }
 
 .input-box button:hover {
-  background-color: #0056b3;
+  background-color: #d66072;
   transform: translateY(-2px); 
 }
 
