@@ -3,7 +3,8 @@
   flex-direction: column;
   padding-left: 30%;
   padding-right: 30%;
-  height: 100vh;
+  padding-top: 2%;
+  height: 90vh;
   justify-content: space-between;
   font-family: Arial, sans-serif;
 }

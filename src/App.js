@@ -15,8 +15,10 @@ const App = () => {
     setInput("");
   };
 
-  const Response = (text) => {
-    return '체크체크'
+  const Response = (text) => { 
+    if(input.trim() === "안녕") return '안녕'
+    else if(input.trim() === "고마워") return '천만에, 얼마든지 물어봐도 좋아'
+    else return '테스트 중입니다'
   };
 
   return (
