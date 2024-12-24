@@ -17,8 +17,8 @@ const App = () => {
   };
 
   const handleSendVoice = () => {
-    console.log("음성 메시지 전송 기능은 아직 구현되지 않았습니다!");
-    // 음성을 받을 로직을 여기에 구현하세요.
+    const audio = new Audio(process.env.PUBLIC_URL + "/ding.mp3");
+    audio.play().catch((error) => console.error("소리 없음", error));
   };
 
   // 유저가 내용을 넣으면 로봇이 하는 말
