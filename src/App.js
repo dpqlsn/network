@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const handleSendVoice = () => {
-    const audio = new Audio(process.env.PUBLIC_URL + "/ding.mp3");
+    const audio = new Audio("../ding.mp3"); 
     audio.play().catch((error) => console.error("소리 없음", error));
   };
 
